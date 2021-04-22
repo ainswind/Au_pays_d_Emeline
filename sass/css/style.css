@@ -71,15 +71,16 @@ main {
   background-color: #FFFFFF80;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   margin-top: 40px;
 }
 .tarif img {
-  width: 30%;
   height: 200px;
+  width: 300px;
 }
 
 .texte {
+  width: 100%;
+  margin-left: 0px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -87,9 +88,6 @@ main {
 }
 .texte h1 {
   margin: 20px 0 10px 0;
-}
-.texte p {
-  width: 90%;
 }
 
 img {
@@ -200,7 +198,7 @@ img {
   width: 35%;
   padding: 40px 40px 40px 40px;
 }
-@media all and (min-width: 1440px) {
+@media all and (min-width: 1024px) {
   .address {
     height: 200px;
   }

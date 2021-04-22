@@ -70,14 +70,19 @@ main{
     background-color:$opac; 
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     margin-top: 40px;
     img{
-        width: 30%;
         height: 200px;
+    width: 300px;
     }
+    
+}
+.pho{
 }
 .texte{
+    
+    width: 100%;
+    margin-left: 0px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -85,9 +90,7 @@ main{
     h1{
         margin: 20px 0 10px 0;
     }
-    p{
-        width: 90%;
-    }
+   
 }
 img{
     object-fit: cover; 
@@ -189,7 +192,7 @@ img{
 
     width: 35%;
     padding: 40px 40px 40px 40px;
-    @media all and (min-width:1440px) {
+    @media all and (min-width:1024px) {
         height: 200px;
     }
 
