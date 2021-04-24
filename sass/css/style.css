@@ -96,6 +96,9 @@ main {
 .texte h1 {
   margin: 20px 0 10px 0;
 }
+.texte p {
+  margin: 0 10px 0 10px;
+}
 
 img {
   object-fit: cover;
