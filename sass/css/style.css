@@ -20,21 +20,64 @@ header {
   justify-content: space-between;
   color: white;
 }
-@media all and (min-width: 1024px) {
+@media all and (min-width: 320px) {
   header {
     margin-top: 40px;
   }
 }
-header img {
-  width: 170px;
-  margin-left: 20px;
+@media all and (min-width: 320px) {
+  header img {
+    width: 60px;
+  }
+}
+@media all and (min-width: 768px) {
+  header img {
+    margin-left: 20px;
+    width: 100px;
+  }
+}
+@media all and (min-width: 1024px) {
+  header img {
+    width: 170px;
+  }
+}
+@media all and (min-width: 1440px) {
+  header img {
+    width: 220px;
+  }
 }
 
 .logo {
   display: flex;
 }
-.logo h1 {
-  margin-top: 40px;
+@media all and (min-width: 320px) {
+  .logo h1 {
+    font-size: 12px;
+    margin-top: 15px;
+  }
+}
+@media all and (min-width: 425px) {
+  .logo h1 {
+    font-size: 15px;
+    margin-top: 15px;
+  }
+}
+@media all and (min-width: 768px) {
+  .logo h1 {
+    font-size: 25px;
+    margin-top: 20px;
+  }
+}
+@media all and (min-width: 1024px) {
+  .logo h1 {
+    margin-top: 40px;
+    font-size: 30px;
+  }
+}
+@media all and (min-width: 1440px) {
+  .logo h1 {
+    font-size: 45px;
+  }
 }
 
 a {
@@ -42,23 +85,73 @@ a {
   color: white;
 }
 
+@media all and (min-width: 320px) {
+  nav {
+    width: 150px;
+  }
+}
+@media all and (min-width: 425px) {
+  nav {
+    width: 200px;
+  }
+}
+@media all and (min-width: 768px) {
+  nav {
+    width: 350px;
+    margin-top: 5px;
+  }
+}
 @media all and (min-width: 1024px) {
   nav {
     width: 500px;
-    margin-top: 20px;
+    margin-top: 25px;
+  }
+}
+@media all and (min-width: 1440px) {
+  nav {
+    width: 700px;
+    margin-top: 35px;
   }
 }
 
 ul {
-  margin-top: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+@media all and (min-width: 320px) {
+  ul {
+    font-size: 10px;
+    margin-top: 15px;
+  }
+}
+@media all and (min-width: 425px) {
+  ul {
+    font-size: 10px;
+    margin-top: 20px;
+  }
+}
+@media all and (min-width: 768px) {
+  ul {
+    font-size: 18px;
+  }
 }
 @media all and (min-width: 1024px) {
   ul {
     font-size: 25px;
   }
+}
+@media all and (min-width: 1440px) {
+  ul {
+    font-size: 30px;
+  }
+}
+ul a:hover {
+  color: #8a51a5;
+}
+
+.pageact {
+  color: #8a51a5;
 }
 
 main {
@@ -67,11 +160,15 @@ main {
 }
 
 .mass {
-  width: 80%;
   justify-self: center;
   display: flex;
   flex-direction: column;
   margin: 40px 0 60px 0;
+}
+@media all and (min-width: 320px) {
+  .mass {
+    width: 85%;
+  }
 }
 
 .tarif {
@@ -80,9 +177,43 @@ main {
   flex-direction: row;
   margin-top: 40px;
 }
-.tarif img {
-  height: 200px;
-  width: 300px;
+@media all and (min-width: 320px) {
+  .tarif {
+    height: 160px;
+  }
+}
+@media all and (min-width: 425px) {
+  .tarif {
+    height: 140px;
+  }
+}
+@media all and (min-width: 768px) {
+  .tarif {
+    height: 220px;
+  }
+}
+@media all and (min-width: 1440px) {
+  .tarif {
+    height: 270px;
+  }
+}
+@media all and (min-width: 320px) {
+  .tarif img {
+    display: none;
+  }
+}
+@media all and (min-width: 768px) {
+  .tarif img {
+    height: 220px;
+    width: 300px;
+    display: flex;
+  }
+}
+@media all and (min-width: 1440px) {
+  .tarif img {
+    height: 270px;
+    width: 350px;
+  }
 }
 
 .texte {
@@ -96,8 +227,49 @@ main {
 .texte h1 {
   margin: 20px 0 10px 0;
 }
+@media all and (min-width: 320px) {
+  .texte h1 {
+    font-size: 12px;
+  }
+}
+@media all and (min-width: 768px) {
+  .texte h1 {
+    font-size: 20px;
+  }
+}
+@media all and (min-width: 1024px) {
+  .texte h1 {
+    font-size: 30px;
+  }
+}
+@media all and (min-width: 1440px) {
+  .texte h1 {
+    font-size: 40px;
+  }
+}
 .texte p {
   margin: 0 10px 0 10px;
+  text-align: justify;
+}
+@media all and (min-width: 320px) {
+  .texte p {
+    font-size: 10px;
+  }
+}
+@media all and (min-width: 768px) {
+  .texte p {
+    font-size: 15px;
+  }
+}
+@media all and (min-width: 1024px) {
+  .texte p {
+    font-size: 17px;
+  }
+}
+@media all and (min-width: 1440px) {
+  .texte p {
+    font-size: 22px;
+  }
 }
 
 img {
@@ -116,27 +288,43 @@ img {
 .propos-title {
   background-color: #FFFFFF80;
   text-align: center;
-  width: 20%;
-  font-size: 30px;
   align-self: center;
   padding: 25px 25px 25px 25px;
+}
+@media all and (min-width: 320px) {
+  .propos-title {
+    width: 50%;
+    font-size: 20px;
+  }
 }
 
 .resume {
   background-color: #FFFFFF80;
-  width: 80%;
   margin-top: 80px;
   align-self: center;
   padding: 40px 40px 40px 40px;
   font-size: 20px;
+}
+@media all and (min-width: 320px) {
+  .resume {
+    width: 70%;
+    font-size: 15px;
+  }
 }
 
 .photo {
   margin-top: 80px;
   align-self: center;
 }
-.photo img {
-  height: 300px;
+@media all and (min-width: 320px) {
+  .photo img {
+    height: 200px;
+  }
+}
+@media all and (min-width: 768px) {
+  .photo img {
+    height: 300px;
+  }
 }
 
 .infos {
@@ -158,6 +346,16 @@ img {
 .infos h2 {
   margin-bottom: 15px;
 }
+@media all and (min-width: 320px) {
+  .infos h2 {
+    font-size: 30px;
+  }
+}
+@media all and (min-width: 768px) {
+  .infos h2 {
+    font-size: 45px;
+  }
+}
 @media all and (min-width: 1024px) {
   .infos h2 {
     font-size: 50px;
@@ -166,6 +364,26 @@ img {
 @media all and (min-width: 1440px) {
   .infos h2 {
     font-size: 70px;
+  }
+}
+@media all and (min-width: 320px) {
+  .infos p {
+    font-size: 10px;
+  }
+}
+@media all and (min-width: 375px) {
+  .infos p {
+    font-size: 12px;
+  }
+}
+@media all and (min-width: 425px) {
+  .infos p {
+    font-size: 16px;
+  }
+}
+@media all and (min-width: 768px) {
+  .infos p {
+    font-size: 25px;
   }
 }
 @media all and (min-width: 1440px) {
@@ -178,57 +396,234 @@ img {
   background-color: #FFFFFF80;
   align-self: center;
   text-align: center;
-  width: 50%;
-  font-size: 30px;
   padding: 25px 25px 25px 25px;
+}
+@media all and (min-width: 320px) {
+  .title {
+    width: 250px;
+    font-size: 15px;
+  }
+}
+@media all and (min-width: 375px) {
+  .title {
+    width: 310px;
+  }
+}
+@media all and (min-width: 425px) {
+  .title {
+    width: 360px;
+  }
+}
+@media all and (min-width: 768px) {
+  .title {
+    font-size: 25px;
+    width: 540px;
+  }
+}
+@media all and (min-width: 1024px) {
+  .title {
+    font-size: 30px;
+  }
 }
 @media all and (min-width: 1440px) {
   .title {
     font-size: 50px;
+    width: 800px;
   }
 }
 
 .contact {
   background-color: #FFFFFF80;
-  margin-top: 180px;
-  margin-left: 40px;
-  width: 35%;
   padding: 40px 40px 40px 40px;
+}
+@media all and (min-width: 320px) {
+  .contact {
+    width: 225px;
+    margin-left: 8px;
+    margin-top: 80px;
+  }
+}
+@media all and (min-width: 375px) {
+  .contact {
+    width: 280px;
+  }
+}
+@media all and (min-width: 425px) {
+  .contact {
+    width: 330px;
+  }
+}
+@media all and (min-width: 768px) {
+  .contact {
+    margin-left: 90px;
+    width: 510px;
+  }
+}
+@media all and (min-width: 1024px) {
+  .contact {
+    margin-left: 40px;
+    margin-top: 180px;
+  }
+}
+@media all and (min-width: 1440px) {
+  .contact {
+    width: 650px;
+  }
+}
+
+.com {
+  display: flex;
+  margin-top: 10px;
+}
+@media all and (min-width: 320px) {
+  .com p {
+    margin-top: 5px;
+    font-size: 10px;
+  }
+}
+@media all and (min-width: 375px) {
+  .com p {
+    font-size: 13px;
+  }
+}
+@media all and (min-width: 425px) {
+  .com p {
+    font-size: 16px;
+  }
+}
+@media all and (min-width: 768px) {
+  .com p {
+    font-size: 25px;
+  }
+}
+
+@media all and (min-width: 320px) {
+  .ico {
+    width: 15px;
+    margin-right: 15px;
+  }
+}
+@media all and (min-width: 375px) {
+  .ico {
+    width: 20px;
+  }
+}
+@media all and (min-width: 768px) {
+  .ico {
+    width: 30px;
+  }
 }
 
 .acces {
   margin-top: 80px;
   width: 100%;
   display: flex;
-  margin-left: 40px;
+}
+@media all and (min-width: 320px) {
+  .acces {
+    flex-direction: column;
+  }
+}
+@media all and (min-width: 1024px) {
+  .acces {
+    margin-left: 40px;
+    flex-direction: row;
+  }
 }
 
 .address {
   background-color: #FFFFFF80;
-  width: 35%;
   padding: 40px 40px 40px 40px;
+}
+@media all and (min-width: 320px) {
+  .address {
+    margin-left: 8px;
+    width: 225px;
+    margin-bottom: 80px;
+  }
+}
+@media all and (min-width: 375px) {
+  .address {
+    width: 280px;
+  }
+}
+@media all and (min-width: 425px) {
+  .address {
+    width: 330px;
+  }
+}
+@media all and (min-width: 768px) {
+  .address {
+    margin-left: 90px;
+    width: 510px;
+  }
 }
 @media all and (min-width: 1024px) {
   .address {
     height: 200px;
+    margin-left: 0px;
+  }
+}
+@media all and (min-width: 1440px) {
+  .address {
+    width: 650px;
   }
 }
 
+@media all and (min-width: 320px) {
+  .map {
+    margin-bottom: 80px;
+    margin-left: 8px;
+    width: 300px;
+  }
+}
+@media all and (min-width: 375px) {
+  .map {
+    width: 360px;
+  }
+}
+@media all and (min-width: 425px) {
+  .map {
+    width: 410px;
+  }
+}
+@media all and (min-width: 768px) {
+  .map {
+    margin-left: 90px;
+    width: 600px;
+  }
+}
 @media all and (min-width: 1024px) {
   .map {
-    margin-left: 100px;
+    margin-left: 15px;
   }
 }
 @media all and (min-width: 1440px) {
   .map {
     margin-left: 160px;
+    width: 560px;
   }
 }
 
+@media all and (min-width: 425px) {
+  .plan {
+    width: 410px;
+  }
+}
+@media all and (min-width: 768px) {
+  .plan {
+    width: 590px;
+  }
+}
+@media all and (min-width: 1024px) {
+  .plan {
+    height: 280px;
+  }
+}
 @media all and (min-width: 1440px) {
   .plan {
-    width: 600px;
-    height: 400px;
+    width: 560px;
+    height: 275px;
   }
 }
 
@@ -237,8 +632,31 @@ footer {
   width: 100%;
   display: flex;
   justify-content: space-around;
-  padding-bottom: 20px;
-  font-size: 20px;
+}
+@media all and (min-width: 320px) {
+  footer {
+    font-size: 15px;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+}
+@media all and (min-width: 768px) {
+  footer {
+    font-size: 15px;
+    flex-direction: row;
+  }
+}
+@media all and (min-width: 1024px) {
+  footer {
+    font-size: 20px;
+  }
+}
+@media all and (min-width: 1440px) {
+  footer {
+    font-size: 25px;
+    padding-bottom: 40px;
+  }
 }
 footer div {
   margin-top: 15px;
