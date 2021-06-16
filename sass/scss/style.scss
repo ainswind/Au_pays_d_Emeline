@@ -415,7 +415,7 @@ p{
     
     
 }
-.contact{
+.contact, .hours{
     background-color: $opac;
    padding: 40px 40px 40px 40px;
     @media all and (min-width:320px) {
@@ -466,7 +466,7 @@ p{
     p{
         @media all and (min-width:320px) {
               margin-top: 5px;
-              font-size: 10px;
+              font-size: 12px;
         }
         @media all and (min-width:375px) {
             font-size: 13px;
@@ -510,6 +510,23 @@ p{
     }
     
 }
+.hours{
+    p{
+        @media all and (min-width:320px) {
+              margin-top: 5px;
+              font-size: 12px;
+        }
+        @media all and (min-width:375px) {
+            font-size: 13px;
+    }
+        @media all and (min-width:425px) {
+            font-size: 16px;
+            }
+        @media all and (min-width:768px) {
+            font-size: 25px;
+            }
+    }
+}
 .address{
     background-color: $opac;
 
@@ -539,6 +556,21 @@ p{
 
     @media all and (min-width:1440px) {
         width: 650px;
+        }
+        p{
+            @media all and (min-width:320px) {
+                  margin-top: 5px;
+                  font-size: 12px;
+            }
+            @media all and (min-width:375px) {
+                font-size: 13px;
+        }
+            @media all and (min-width:425px) {
+                font-size: 16px;
+                }
+            @media all and (min-width:768px) {
+                font-size: 25px;
+                }
         }
 }
 .map{

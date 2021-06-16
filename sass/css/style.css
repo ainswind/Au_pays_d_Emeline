@@ -488,69 +488,69 @@ p {
   }
 }
 
-.contact {
+.contact, .hours {
   background-color: #FFFFFF80;
   padding: 40px 40px 40px 40px;
 }
 @media all and (min-width: 320px) {
-  .contact {
+  .contact, .hours {
     width: 225px;
     margin-left: 8px;
     margin-top: 80px;
   }
 }
 @media all and (min-width: 375px) {
-  .contact {
+  .contact, .hours {
     width: 280px;
   }
 }
 @media all and (min-width: 425px) {
-  .contact {
+  .contact, .hours {
     width: 330px;
   }
 }
 @media all and (min-width: 768px) {
-  .contact {
+  .contact, .hours {
     margin-left: 90px;
     width: 510px;
   }
 }
 @media all and (min-width: 1024px) {
-  .contact {
+  .contact, .hours {
     margin-left: 40px;
     margin-top: 180px;
   }
 }
 @media all and (min-width: 1440px) {
-  .contact {
+  .contact, .hours {
     width: 650px;
   }
 }
-.contact a {
+.contact a, .hours a {
   color: blue;
 }
 @media all and (min-width: 320px) {
-  .contact a {
+  .contact a, .hours a {
     margin-top: 5px;
     font-size: 10px;
   }
 }
 @media all and (min-width: 375px) {
-  .contact a {
+  .contact a, .hours a {
     font-size: 13px;
   }
 }
 @media all and (min-width: 425px) {
-  .contact a {
+  .contact a, .hours a {
     font-size: 16px;
   }
 }
 @media all and (min-width: 768px) {
-  .contact a {
+  .contact a, .hours a {
     font-size: 25px;
   }
 }
-.contact a:hover {
+.contact a:hover, .hours a:hover {
   text-decoration: underline;
 }
 
@@ -561,7 +561,7 @@ p {
 @media all and (min-width: 320px) {
   .com p {
     margin-top: 5px;
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 @media all and (min-width: 375px) {
@@ -614,6 +614,28 @@ p {
   }
 }
 
+@media all and (min-width: 320px) {
+  .hours p {
+    margin-top: 5px;
+    font-size: 12px;
+  }
+}
+@media all and (min-width: 375px) {
+  .hours p {
+    font-size: 13px;
+  }
+}
+@media all and (min-width: 425px) {
+  .hours p {
+    font-size: 16px;
+  }
+}
+@media all and (min-width: 768px) {
+  .hours p {
+    font-size: 25px;
+  }
+}
+
 .address {
   background-color: #FFFFFF80;
   padding: 40px 40px 40px 40px;
@@ -650,6 +672,27 @@ p {
 @media all and (min-width: 1440px) {
   .address {
     width: 650px;
+  }
+}
+@media all and (min-width: 320px) {
+  .address p {
+    margin-top: 5px;
+    font-size: 12px;
+  }
+}
+@media all and (min-width: 375px) {
+  .address p {
+    font-size: 13px;
+  }
+}
+@media all and (min-width: 425px) {
+  .address p {
+    font-size: 16px;
+  }
+}
+@media all and (min-width: 768px) {
+  .address p {
+    font-size: 25px;
   }
 }
 
