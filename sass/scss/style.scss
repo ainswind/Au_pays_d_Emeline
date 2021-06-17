@@ -200,16 +200,19 @@ main{
     flex-direction: row;
     margin-top: 40px;
     @media all and (min-width:320px) {
-        height: 160px;
-     }
-    @media all and (min-width:425px) {
-        height: 140px;
-     }
-     @media all and (min-width:768px) {
         height: 220px;
      }
+    @media all and (min-width:425px) {
+        height: 175px;
+     }
+     @media all and (min-width:768px) {
+        height: 285px;
+     }
+     @media all and (min-width:1024px) {
+        height: 310px;
+     }
      @media all and (min-width:1440px) {
-        height: 270px;
+        height: 340px;
        
      }
     img{
@@ -218,13 +221,16 @@ main{
        display: none;   
         }
     @media all and (min-width:768px) {
-        height: 220px;
+        height: 285px;
         width: 300px; 
         display: flex;      
         }
+        @media all and (min-width:1024px) {
+            height: 310px;
+         }
         @media all and (min-width:1440px) {
-            height: 270px;
-            width: 350px;
+            height: 340px;
+            width: 360px;
          }
     
     }
